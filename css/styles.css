@@ -1,0 +1,7 @@
+.japan, .london, .newzealand, .hawaii {
+  display: none;
+}
+
+.japan {
+  text-align: center;
+}
