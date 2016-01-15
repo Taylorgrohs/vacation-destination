@@ -5,6 +5,16 @@ body {
 }
 .jumbotron h1 {
   color: #34495e;
+  text-shadow: 10px 10px 20px #34495e;
+}
+
+.jumbotron {
+  text-align: center;
+}
+
+.questiontitle {
+  text-align: center;
+  text-decoration: underline;
 }
 
 .btn {
@@ -18,6 +28,7 @@ select {
 
 .col-sm-6 {
   text-align: center;
+  
 }
 .col-sm-4 {
   text-align: center;
