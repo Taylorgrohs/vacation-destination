@@ -6,15 +6,15 @@ $(document).ready(function(){
     var describe = parseInt($("select#describe").val());
     var number = parseInt($("select#describe").val());
     var total = activity + color + duration + describe + number
-    if (total >= 14) {
+    if (total >= 12) {
       $(".questions").hide();
       $(".japan").show();
       $("body").addClass("japanstyle");
-    } else if (total >= 9) {
+    } else if (total >= 10) {
       $(".questions").hide()
       $(".newzealand").show()
       $("body").addClass("newzealandstyle");
-    } else if (total >= 8) {
+    } else if (total >= 7) {
       $(".questions").hide();
       $(".london").show();
       $("body").addClass("londonstyle");
