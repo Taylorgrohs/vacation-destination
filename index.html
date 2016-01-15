@@ -8,70 +8,71 @@
     <script src="js/scripts.js"></script>
   </head>
   <body>
-    <div class="container">
-      <div class="jumbotron">
-        <h1>Where are you going on vacation?</h1>
-        </div>
-    </div>
-    <div class="container">
-      <form>
-        <div class="row">
-          <div class="col-sm-6">
-          <h1>Select an activity</h1>
-          <select id="activity">
-            <option>Please select an option</option>
-            <option value="1">Scuba diving</option>
-            <option value="3">Sightseeing</option>
-          </select>
+    <div class="questions">
+      <div class="container">
+        <div class="jumbotron">
+          <h1>Where are you going on vacation?</h1>
           </div>
-          <div class="col-sm-6">
-          <h1>Select a color</h1>
-          <select id="color">
-            <option>Please select an option</option>
-            <option value="3">Blue</option>
-            <option value="1">Red</option>
-            <option value="2">Green</option>
-          </select>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Select a duration</h1>
-            <select id="duration">
+      </div>
+      <div class="container">
+        <form>
+          <div class="row">
+            <div class="col-sm-6">
+            <h1>Select an activity</h1>
+            <select id="activity">
               <option>Please select an option</option>
-              <option value="1">1 week</option>
-              <option value="2">2 weeks</option>
-              <option value="3">3 weeks</option>
+              <option value="1">Scuba diving</option>
+              <option value="3">Sightseeing</option>
             </select>
-          </div>
-          <div class="col-sm-6">
-            <h1>What best describes you?</h1>
-            <select id="describe">
+            </div>
+            <div class="col-sm-6">
+            <h1>Select a color</h1>
+            <select id="color">
               <option>Please select an option</option>
-              <option value="1">Laid back</option>
-              <option value="3">Adventurous</option>
+              <option value="3">Blue</option>
+              <option value="1">Red</option>
+              <option value="2">Green</option>
             </select>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <h1>Select a number</h1>
-            <select id="number">
-              <option>Please select an option</option>
-              <option value="3">1</option>
-              <option value="0">7</option>
-              <option value="1">23</option>
-            </select>
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>Select a duration</h1>
+              <select id="duration">
+                <option>Please select an option</option>
+                <option value="1">1 week</option>
+                <option value="2">2 weeks</option>
+                <option value="3">3 weeks</option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <h1>What best describes you?</h1>
+              <select id="describe">
+                <option>Please select an option</option>
+                <option value="1">Laid back</option>
+                <option value="3">Adventurous</option>
+              </select>
+            </div>
           </div>
-          <div class="col-sm-6">
-            <br>
-            <br>
-            <button type="submit"class="btn btn-primary">Submit</button>
+          <div class="row">
+            <div class="col-sm-6">
+              <h1>Select a number</h1>
+              <select id="number">
+                <option>Please select an option</option>
+                <option value="3">1</option>
+                <option value="0">7</option>
+                <option value="1">23</option>
+              </select>
+            </div>
+            <div class="col-sm-6">
+              <br>
+              <br>
+              <button type="submit"class="btn btn-primary">Submit</button>
+            </div>
           </div>
-        </div>
-    </div>
-  </form>
-
+      </div>
+    </form>
+  </div>
     <div class="container">
       <div class="newzealand">
         <h1>You got New Zealand!</h1>
@@ -96,10 +97,20 @@
     </div>
     <div class="container">
       <div class="london">
-        <h1>You got London!</h1>
-        <h3>Enjoy London and all its history!</h3>
-        <img src="img/london.jpg" alt="Picture of London">
+        <div class="jumbotron">
+
+          <h1>You got London!</h1>
+          <h3>Enjoy London and all its history!</h3>
+
+        </div>
+          <img src="img/london.jpg" alt="Picture of London">
       </div>
     </div>
+    <br><br><br><br>
+    <div>
+    <footer>
+      <p>&copy; 2016 Taylor Grohs</p>
+    </footer>
+  </div>
   </body>
 </html>

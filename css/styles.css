@@ -1,7 +1,57 @@
+body {
+  font-family: fantasy;
+  background-color: #34495e;
+  color: #ecf0f1;
+}
+.jumbotron h1 {
+  color: #34495e;
+}
+
+select {
+  background: rgba(255, 255, 255, 0.5);
+}
 .japan, .london, .newzealand, .hawaii {
   display: none;
 }
 
 .japan {
+  text-align: center;
+}
+
+.japanstyle {
+  background-color: #c0392b;
+  color: #ecf0f1;
+}
+
+.london {
+  text-align: center;
+}
+
+.londonstyle {
+  background-image: url(../img/londonflag.jpg);
+  background-size: fit;
+}
+
+.londonjumbo {
+  background: rgba(0, 0, 245, 0.5);
+}
+
+.londonjumbo h1 {
+    color: #ecf0f1;
+ }
+
+.londonfooter {
+  background: rgba(0, 0, 245, 0.5);
+}
+.newzealand {
+  text-align: center;
+
+}
+
+.hawaii {
+  text-align: center;
+}
+
+footer {
   text-align: center;
 }

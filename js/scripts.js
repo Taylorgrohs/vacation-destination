@@ -6,17 +6,22 @@ $(document).ready(function(){
     var describe = parseInt($("select#describe").val());
     var number = parseInt($("select#describe").val());
     var total = activity + color + duration + describe + number
-    if (total > 13) {
-      $("form").hide()
-      $(".japan").show()
-    } else if (total > 11) {
-      $("form").hide()
+    if (total >= 13) {
+      $(".questions").hide();
+      $(".japan").show();
+      $("body").addClass("japanstyle");
+    } else if (total >= 11) {
+      $(".questions").hide()
       $(".newzealand").show()
-    } else if (total > 9) {
-      $("form").hide()
-      $(".london").show()
-    } else if (total > 4) {
-      $("form").hide()
+    } else if (total >= 9) {
+      $(".questions").hide();
+      $(".london").show();
+      $("body").addClass("londonstyle");
+      $(".jumbotron").addClass("londonjumbo");
+      $(".jumbotron").addClass("londonjumbo h1");
+      $("footer").addClass("londonfooter");
+    } else if (total >= 4) {
+      $(".questions").hide()
       $(".hawaii").show()
     } else {
       alert("Please complete the questions")
