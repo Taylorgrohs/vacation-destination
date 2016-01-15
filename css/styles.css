@@ -7,8 +7,20 @@ body {
   color: #34495e;
 }
 
+.btn {
+  background-color: #ecf0f1;
+  color: #34495e;
+}
 select {
   background: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+.col-sm-6 {
+  text-align: center;
+}
+.col-sm-4 {
+  text-align: center;
 }
 .japan, .london, .newzealand, .hawaii {
   display: none;
