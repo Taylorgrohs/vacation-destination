@@ -45,12 +45,31 @@ select {
 }
 .newzealand {
   text-align: center;
+}
 
+.newzealandstyle {
+  background-image: url(../img/newzealandbackground.jpg);
 }
 
 .hawaii {
   text-align: center;
 }
+
+.hawaiistyle {
+  background-image: url(../img/hawaiibackground.jpg);
+}
+
+.hawaiijumbo {
+  background: rgba(245, 245, 245, 0.5);
+}
+
+.hawaiijumbo h1 {
+    color: #34495e;
+ }
+
+ .hawaiijumbo h3 {
+     color: #34495e;
+  }
 
 footer {
   text-align: center;

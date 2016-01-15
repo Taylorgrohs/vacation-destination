@@ -13,6 +13,7 @@ $(document).ready(function(){
     } else if (total >= 11) {
       $(".questions").hide()
       $(".newzealand").show()
+      $("body").addClass("newzealandstyle");
     } else if (total >= 9) {
       $(".questions").hide();
       $(".london").show();
@@ -23,6 +24,10 @@ $(document).ready(function(){
     } else if (total >= 4) {
       $(".questions").hide()
       $(".hawaii").show()
+      $("body").addClass("hawaiistyle");
+      $(".jumbotron").addClass("hawaiijumbo");
+      $(".jumbotron").addClass("hawaiijumbo h1");
+      $(".jumbotron").addClass("hawaiijumbo h3");
     } else {
       alert("Please complete the questions")
     }
